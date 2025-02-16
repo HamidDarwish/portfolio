@@ -150,7 +150,7 @@ span{
 }
 
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 300;
     max-width: 1100px;
 }
@@ -194,6 +194,9 @@ span{
     transform: scale(1.2);
     box-shadow: 0 0 25px var(--main-color);
 }
+
+
+
 
 .text-animation{
     font-size: 34px;
@@ -330,7 +333,7 @@ span{
 }
 
 .about-content p{
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     margin: 2rem 0 3rem;
 }
 
@@ -354,20 +357,21 @@ span{
 .skills{
     background: var(--main-colo);
     color: white;
-    margin-bottom: 4rem;
+    min-height: auto;
+    height: auto;
 }
 
 .skills h2 {
     margin-top: -2.5rem;
     margin-bottom: 3rem;
     color: white;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .progress-bar {
@@ -386,6 +390,8 @@ span{
     background: var(--second-bg-color);
     color: white;
     margin-bottom: 4rem;
+    min-height: auto;
+    height: auto;
 }
 
 .services h2{
@@ -492,6 +498,8 @@ span{
 .contact{
     min-height: 100vh;
     background: var(--bg-color);
+    min-height: auto;
+    height: auto;
 }
 
 .contact h2{
